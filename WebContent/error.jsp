@@ -9,5 +9,7 @@
 <body>
 <!-- 提醒客户端系统出现异常 -->
 系统出现异常<br/>
+异常类型是：<%=exception.getClass() %><br/>
+异常信息是:<%=exception.getMessage() %><br/>
 </body>
 </html>
