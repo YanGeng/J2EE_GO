@@ -13,7 +13,7 @@
 // 注册数据库驱动
 Class.forName("com.mysql.jdbc.Driver");
 // 获取数据库连接
-Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/j2ee_go","root","123456");
+Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/j2ee_go","root","");
 Statement stmt = conn.createStatement();
 ResultSet rs = stmt.executeQuery("SELECT * FROM user_info");
 %>
